@@ -1,0 +1,108 @@
+/* 
+BODY:
+
+font-family: "dreaming-outloud-sans", sans-serif;
+font-weight: 400;
+font-style: normal; 
+
+
+HEADINGS:
+
+*BOLD*
+font-family: "houschka-rounded", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+*LIGHT*
+font-family: "houschka-rounded", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+colors:
+
+*DANGER* beige background: #ffe6d3  - 255, 230, 211
+
+*PRIMARY* light pink: #f89a40 - 248, 154, 64
+
+*SUCCESS* dark pink: #ec1f62 - 236, 31, 98
+
+*/
+
+:root{
+  
+  --bs-body-bg:#ffe1cd;
+  --bs-danger:#ffe1cd;
+  --bs-danger-rgb: 260, 225, 205;
+
+  --bs-primary-rgb: 248, 154, 64;
+  --bs-primary:#f89a40;
+
+  --bs-success-rgb: 236, 31, 98;
+  --bs-success:#ec1f62;
+}
+
+body{
+  font-family: "dreaming-outloud-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bold-header{
+  font-family: "houschka-rounded", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.light-header{
+  font-family: "houschka-rounded", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.my-logo{
+  max-width: 16rem;
+}
+
+.wrapper{
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section-1{
+  max-height: 30rem;
+}
+
+.section-2{
+  max-height: 50rem;
+}
+
+.portrait-image{
+  max-width: 22rem;
+}
+
+.graphics-image{
+  max-width: 15rem;
+}
+
+.position-stick{
+  position: relative;
+}
+
+.sticker-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  pointer-events: none; 
+}
+
+.sticker {
+  position: absolute;
+  width: 100px;
+  height: auto;
+}
