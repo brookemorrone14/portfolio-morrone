@@ -12,7 +12,7 @@
 
 <body>
   <header>
-        <div>
+    <div class="d-none d-lg-block">
       <nav class="navbar navbar-expand-lg bg-danger pt-3 pb-3">
         <div class="container-fluid wrapper p-0">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,10 +35,31 @@
         </div>
       </nav>
     </div>
+
+
+    <div class="d-block d-lg-none mobile-wrapper">
+      <nav class="navbar navbar-expand-lg bg-danger pt-3 pb-3">
+        <div class="container-fluid p-0 m-0">
+          <img class="img-fluid my-logo-mobile" src="graphics/my-logo.png" href="index.html" alt="my logo">
+          <button class="navbar-toggler bg-primary border border-white border-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+
+            <div class="navbar-nav gap-3">
+              <a class="nav-link text-primary bold-header fs-5" aria-current="page" href="index.html">Homepage</a>
+              <a class="nav-link text-primary bold-header fs-5" href="schoolwork.html">School Projects</a>
+              <a class="nav-link text-primary bold-header fs-5" href="real-world.html">Real-world Experience</a>
+              <a class="nav-link text-success bold-header fs-5" href="contact.html">About Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <main class="position-stick">
-    <div class="sticker-layer">
+    <div class="sticker-layer d-none d-lg-block">
           <!-- <img class="sticker" src="graphics/stickers/stars/star-sticker-beige.png" alt="star" style="top:8%; left:20%;">
           <img class="sticker" src="graphics/stickers/stars/star-sticker-orange.png" alt="star" style="top:8%; left:20%;">
           <img class="sticker" src="graphics/stickers/stars/star-sticker-pink.png" alt="star" style="top:8%; left:20%;">
@@ -61,10 +82,27 @@
           <img class="sticker" src="graphics/stickers/planets/planet-sticker-pinks.png" alt="planet" style="top:94%; left:17%;">
           <img class="sticker" src="graphics/stickers/stars/star-sticker-pink.png" alt="star" style="top:74%; left:42%;">
           <img class="sticker" src="graphics/stickers/dinosaurs/dino-sticker-beige.png" alt="dino" style="top:76%; left:49%;">
-
         </div>
 
-    <section class="bg-success pt-3 pb-3 section-1">
+
+
+        <div d-block d-lg-none>
+          <!-- <img class="sticker" src="graphics/stickers/stars/star-sticker-beige.png" alt="star" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/stars/star-sticker-orange.png" alt="star" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/stars/star-sticker-pink.png" alt="star" style="top:8%; left:20%;">
+
+
+          <img class="sticker" src="graphics/stickers/dinosaurs/dino-sticker-beige.png" alt="dino" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/dinosaurs/dino-sticker-orange.png" alt="dino" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/dinosaurs/dino-sticker-pink.png" alt="dino" style="top:8%; left:20%;">
+
+
+          <img class="sticker" src="graphics/stickers/planets/planet-sticker-beige.png" alt="planet" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/planets/planet-sticker-orange.png" alt="planet" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/planets/planet-sticker-pinks.png" alt="planet" style="top:8%; left:20%;"> -->
+        </div>
+
+    <section class="bg-success pt-3 pb-3 section-1 d-none d-lg-block">
       <div class="wrapper container pt-4 pb-4">
         <div class="row">
           <div class="col">
@@ -78,9 +116,20 @@
       </div>
     </section>
 
+
+    <section class="d-block d-lg-none bg-success">
+      <div class="mobile-wrapper">
+        <h1 class="text-white bold-header display-2 pb-3 pt-4 text-center">Why Graphic Design?</h1>
+        <div class="row">
+          <img class="img-fluid portrait-mobile col" src="images/me-photos/about-me.png" alt="photo of me">
+          <p class="text-danger col">Originally, I chose graphic design out of pure instinct. I had been accepted into multiple programs and I just had a feeling that graphic design would work out for me, and it certainly has. I have fallen in love with the craft and I can't wait to use my skills from this program in my career going forwards.</p>
+        </div>
+      </div>
+    </section>
+
     <!-- **** break ***** -->
 
-    <section class="pt-3 pb-3 section-2">
+    <section class="pt-3 pb-3 section-2 d-none d-lg-block">
       <div class="wrapper container pt-4 pb-4">
         <div class="row">
           <h1 class="bold-header text-success display-2 text-center pb-4">Long-Term Goals</h1>
@@ -105,9 +154,27 @@
       </div>
     </section>
 
+
+    <section class="d-block d-lg-none">
+      <div class="mobile-wrapper">
+        <h1 class="bold-header text-success display-3 text-center pt-4 pb-4">Long-Term Goals</h1>
+        <img class="img-fluid" src="graphics/computer-graphic.png" alt="computer graphic">
+        <h4 class="bold-header text-success text-center pt-3">Knowledge of Softwares</h4>
+        <p class="text-primary ps-4 text-center mb-5">In the future, I want to master my softwares. Learning hotkeys and new tools makes me so excited about this field of work, and I want to be an efficient and skilled designer as I progress. I also want to learn brand new softwares, like Adobe Lightroom and After Effects.</p>
+
+        <img class="img-fluid" src="graphics/briefcase-graphic.png" alt="computer graphic">
+        <h4 class="bold-header text-success text-center pt-3">Creating my Career</h4>
+        <p class="text-primary ps-4 text-center mb-5">Once I'm graduated from my program, I want to build a strong client-base. I'd like to work with a variety of clients, like small businesses, large/well-established companies, and individual people to help with their own graphic design projects (like logos, branding and websites).</p>
+
+        <img class="img-fluid" src="graphics/house-graphic.png" alt="computer graphic">
+        <h4 class="bold-header text-success text-center pt-3">Owning a Home</h4>
+        <p class="text-primary ps-4 text-center mb-4">Ultimately, my biggest goal is to be a homeowner. I want to make enough money in this industry to live comfortably, and have my own place. Having a designing space in the future is very important to me, even if that happens to a chaotic part of my kitchen.</p>
+      </div>
+    </section>
+
     <!-- **** break ***** -->
 
-    <section class="bg-primary pt-3 pb-3 section-1">
+    <section class="bg-primary pt-3 pb-3 section-1 d-none d-lg-block">
       <div class="wrapper container pt-4 pb-4">
         <div class="row">
           <h1 class="text-white bold-header display-2 ">Contact Me</h1>
@@ -143,11 +210,46 @@
         </div>
       </div>
     </section>
+
+
+    <section class="d-block d-lg-none bg-primary">
+      <div class="mobile-wrapper">
+        <h1 class="text-white bold-header display-3 text-center pt-3 pb-2">Contact Me</h1>
+        <div class="row">
+          <div class="col">
+            <label for="exampleFormControlInput1" class="form-label bold-header fs-4 text-success">First Name</label>
+            <input type="email" class="form-control bold-header" id="exampleFormControlInput1" placeholder="Jane">
+          </div>
+          <div class="col">
+            <label for="exampleFormControlInput1" class="form-label bold-header fs-4 text-success">Last Name</label>
+            <input type="email" class="form-control bold-header" id="exampleFormControlInput1" placeholder="Doe">
+          </div>
+        </div>
+
+        <label for="exampleFormControlInput1" class="form-label bold-header fs-4 text-success mt-3">Subject</label>
+        <input type="email" class="form-control bold-header" id="exampleFormControlInput1" placeholder="Logo Project XYZ">
+
+        <label for="exampleFormControlInput1" class="form-label bold-header fs-4 text-success mt-3">Email address</label>
+        <input type="email" class="form-control bold-header" id="exampleFormControlInput1" placeholder="name@example.com">
+
+        <label for="exampleFormControlInput1" class="form-label bold-header fs-4 text-success mt-3">Phone Number</label>
+        <input type="email" class="form-control bold-header" id="exampleFormControlInput1" placeholder="(1-800) 123-5678">
+
+        <div class="text-center">
+          <button class="btn bg-success border border-5 border-light text-white bold-header rounded-5 fs-5 ps-5 pe-5 mt-4 mb-5" href="contact.html">Submit</button>
+        </div>
+      </div>
+    </section>
     
   </main>
 
-  <footer class="wrapper bg-danger pt-3 pb-1">
+  <footer class="wrapper bg-danger pt-3 pb-1 d-none d-lg-block">
     <p class="text-success"> &copy; Brooke Morrone, 2025. All rights reserved.</p>
+  </footer>
+
+
+  <footer class="d-block d-lg-none">
+    <p class="text-success text-center pt-3"> &copy; Brooke Morrone, 2025. All rights reserved.</p>
   </footer>
 </body>
 </html>
