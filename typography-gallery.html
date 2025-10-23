@@ -11,8 +11,8 @@
 </head>
 
 <body class="bg-success">
-    <header>
-    <div>
+  <header>
+    <div class="d-none d-lg-block">
       <nav class="navbar navbar-expand-lg bg-danger pt-3 pb-3">
         <div class="container-fluid wrapper p-0">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +35,36 @@
         </div>
       </nav>
     </div>
+
+    <div class="d-block d-lg-none bg-danger">
+      <nav class="navbar navbar-expand-lg mobile-wrapper pt-3 pb-3">
+        <div class="container-fluid p-0 m-0">
+          <img class="img-fluid my-logo-mobile" src="graphics/my-logo.png" href="index.html" alt="my logo">
+          <button class="navbar-toggler bg-primary border border-white border-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+
+            <div class="navbar-nav gap-3">
+              <a class="nav-link text-primary bold-header fs-5" aria-current="page" href="index.html">Homepage</a>
+              <a class="nav-link text-success bold-header fs-5" href="schoolwork.html">School Projects</a>
+              <a class="nav-link text-primary bold-header fs-5" href="real-world.html">Real-world Experience</a>
+              <a class="nav-link text-primary bold-header fs-5" href="contact.html">About Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
-  <h1 class="text-white bold-header display-2 text-center pt-4">(all typographical projects will be displayed here)</h1>
+
+  
+  <main>
+    <div class="d-none d-lg-block">
+      <h1 class="text-white bold-header display-4 text-center pt-4">(all typography projects will be displayed here)</h1>
+    </div>
+
+    <div class="d-block d-lg-none">
+      <h1 class="text-white bold-header display-5 text-center pt-4">(all typography projects will be displayed here)</h1>
+    </div>
+  </main>
 </body>
