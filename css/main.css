@@ -126,3 +126,7 @@ img {
   max-width: 100%;
   object-fit: contain;
 }
+
+.img-fluid {
+  object-fit: contain;
+}
