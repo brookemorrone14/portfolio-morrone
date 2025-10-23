@@ -12,7 +12,7 @@
 
 <body>
   <header>
-        <div>
+    <div class="d-none d-lg-block">
       <nav class="navbar navbar-expand-lg bg-danger pt-3 pb-3">
         <div class="container-fluid wrapper p-0">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,10 +35,30 @@
         </div>
       </nav>
     </div>
+
+    <div class="d-block d-lg-none mobile-wrapper">
+      <nav class="navbar navbar-expand-lg bg-danger pt-3 pb-3">
+        <div class="container-fluid p-0 m-0">
+          <img class="img-fluid my-logo-mobile" src="graphics/my-logo.png" href="index.html" alt="my logo">
+          <button class="navbar-toggler bg-primary border border-white border-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+
+            <div class="navbar-nav gap-3">
+              <a class="nav-link text-primary bold-header fs-5" aria-current="page" href="#">Homepage</a>
+              <a class="nav-link text-primary bold-header fs-5" href="schoolwork.html">School Projects</a>
+              <a class="nav-link text-success bold-header fs-5" href="real-world.html">Real-world Experience</a>
+              <a class="nav-link text-primary bold-header fs-5" href="contact.html">About Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <main class="position-stick">
-        <div class="sticker-layer">
+        <div class="sticker-layer d-none d-lg-block">
           <!-- <img class="sticker" src="graphics/stickers/stars/star-sticker-beige.png" alt="star" style="top:8%; left:20%;">
           <img class="sticker" src="graphics/stickers/stars/star-sticker-orange.png" alt="star" style="top:8%; left:20%;">
           <img class="sticker" src="graphics/stickers/stars/star-sticker-pink.png" alt="star" style="top:8%; left:20%;">
@@ -60,7 +80,25 @@
           <img class="sticker" src="graphics/stickers/stars/star-sticker-pink.png" alt="star" style="top:41%; left:74%;">
         </div>
 
-    <section class="bg-success pt-3 pb-3 section-1">
+
+        <div class="d-block d-lg-none">
+          <!-- <img class="sticker" src="graphics/stickers/stars/star-sticker-beige.png" alt="star" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/stars/star-sticker-orange.png" alt="star" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/stars/star-sticker-pink.png" alt="star" style="top:8%; left:20%;">
+
+
+          <img class="sticker" src="graphics/stickers/dinosaurs/dino-sticker-beige.png" alt="dino" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/dinosaurs/dino-sticker-orange.png" alt="dino" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/dinosaurs/dino-sticker-pink.png" alt="dino" style="top:8%; left:20%;">
+
+
+          <img class="sticker" src="graphics/stickers/planets/planet-sticker-beige.png" alt="planet" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/planets/planet-sticker-orange.png" alt="planet" style="top:8%; left:20%;">
+          <img class="sticker" src="graphics/stickers/planets/planet-sticker-pinks.png" alt="planet" style="top:8%; left:20%;"> -->
+
+        </div>
+
+    <section class="bg-success pt-3 pb-3 section-1 d-none d-lg-block">
       <div class="wrapper container pt-4 pb-4">
         <div class="row">
           <div class="col">
@@ -91,9 +129,36 @@
       </div>
     </section>
 
+    <section class="d-block d-lg-none bg-success">
+      <div class="mobile-wrapper">
+        <h1 class="bold-header text-white display-3 pt-4 text-center">My First Project</h1>
+        <h3 class="light-header text-white display-6 text-center">Apricity Guitars Canada Inc.</h3>
+        <div class="pt-3">
+            <div class="row pb-4">
+              <div class="col">
+                <!-- ********* MAKE AN ORANGE VERSION ********* -->
+                <img class="img-fluid" src="graphics/apricity-logo-orange.png" alt="apricity pink logo">
+              </div>
+              <div class="col">
+                <img class="img-fluid" src="images/apricity-content/apricity-sticker.png" alt="apricity guitar sticker">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid" src="images/apricity-content/apricity-business.png" alt="apricity business card">
+              </div>
+              <div class="col">
+                <img class="img-fluid" src="graphics/apricity-logo-orange.png" alt="apricity pink logo">
+              </div>
+            </div>
+          </div>
+          <p class="text-danger text-center pt-4 pb-4">My first real-world, graphic design project was for Apricity Guitars Canada, a company founded by my dad, Andy. He is recently retired military, and decided to start a company building guitars, to raise money for the 13 children's hospitals in Canada. I designed Apricity's logo, business cards and sticker (to place inside the sound-hole of the guitars). </p>
+      </div>
+    </section>
+
     <!-- **** break ***** -->
 
-    <section class="bg-danger pt-3 pb-3 border-bottom border-4 border-primary section-2">
+    <section class="bg-danger pt-3 pb-3 border-bottom border-4 border-primary section-2 d-none d-lg-block">
       <div class="wrapper container pt-4 pb-4">
         <div class="row">
           <h1 class="text-success bold-header text-center display-2 pb-3">Graphic Design Services</h1>
@@ -123,10 +188,35 @@
       </div>
     </section>
 
+    <section class="d-block d-lg-none bg-danger border-bottom border-4 border-primary">
+      <div class="mobile-wrapper">
+        <h1 class="text-success bold-header text-center display-3 pb-4 pt-2">Graphic Design Services</h1>
+        <img class="img-fluid" src="graphics/pencil-graphic.png" alt="pencil graphic">
+        <h2 class="bold-header text-success text-center pt-4 ps-3">Drawing/Sketching</h2>
+        <p class="text-primary text-center mb-5">I love to draw, but lately, I've found myself sketching out ideas/layouts instead of drawing a finished image. I think I prefer to base all of my projects off of a sketch, and build from there.</p>
+
+        <img class="img-fluid" src="graphics/text-icon-graphic.png" alt="text graphic">
+        <h2 class="bold-header text-success text-center pt-4 ps-3">Typography</h2>
+        <p class="text-primary text-center mb-5">Since beginning to study graphic design, I've had to learn the rules of typography. The way we style text and use different typefaces can ultimately change the entire feel of a project.</p>
+
+        <img class="img-fluid" src="graphics/pages-graphic.png" alt="pages graphic">
+        <h2 class="bold-header text-success text-center pt-4 ps-3">Multi-element Docs</h2>
+        <p class="text-primary text-center mb-5">I love working on projects that include different mediums of graphic design. Designing mutli-element documents means using text, graphics, photography, etc. to create a project.</p>
+
+        <img class="img-fluid" src="graphics/dev-tool-graphic.png" alt="dev graphic">
+        <h2 class="bold-header text-center text-success pt-4 ps-3">Web Developing</h2>
+        <p class="text-primary text-center mb-5">Web-developing has quickly become my favourite form of designing. I built this website myself! I LOVE coding, and styling things using classes/math makes me feel really smart and skilled in my craft.</p>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="wrapper bg-danger pt-3 pb-1">
+  <footer class="wrapper bg-danger pt-3 pb-1 d-none d-lg-block">
     <p class="text-success"> &copy; Brooke Morrone, 2025. All rights reserved.</p>
+  </footer>
+
+  <footer class="d-block d-lg-none pt-3">
+    <p class="text-success text-center"> &copy; Brooke Morrone, 2025. All rights reserved.</p>
   </footer>
 </body>
 </html>
