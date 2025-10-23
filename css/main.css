@@ -119,3 +119,10 @@ body{
 .portrait-mobile{
   max-width: 175px;
 }
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
