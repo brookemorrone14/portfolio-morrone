@@ -29,6 +29,10 @@ colors:
 
 */
 
+html{
+  margin-right: 95px;
+}
+
 :root{
   
   --bs-body-bg:#ffe1cd;
